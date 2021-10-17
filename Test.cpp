@@ -3,10 +3,7 @@ using namespace std;
 #include<string>
 #include "Chat_C.cpp"
 #include <vector>
-#include "Temp.cpp"
 #include "User.cpp"
-#include "Group.cpp"
-#include "Message.cpp"
 #include <algorithm> 
 
 
