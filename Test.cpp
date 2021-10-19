@@ -6,16 +6,9 @@ using namespace std;
 #include "User.cpp"
 #include <algorithm> 
 
-
 #define MaxUserCount 10//limit of Users
 #define MaxGroupCount 100//limit of contacts (groups of users) 
 #define MaxMessageCount 200//limit of messages in one group 
-
-#define __CRTDBG_MAP_ALLOC
-#include <crtdbg.h>
-#define DEBUG_NEW new(_NORMAL_BLOCK, __FILE__, __LINE__)
-#define new DEBUG_NEW
-
 
 int main()
 {  
@@ -445,7 +438,7 @@ int main()
             }
         }
       
-    _CrtDumpMemoryLeaks();
+   
     return 0;
 }
 
